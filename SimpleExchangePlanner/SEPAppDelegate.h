@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SEPAppDelegate : UIResponder <UIApplicationDelegate> {
-    NSMutableDictionary *answers; // answers in dialogs
-    IBOutlet UITextField *txtfld;
-}
+@interface SEPAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
