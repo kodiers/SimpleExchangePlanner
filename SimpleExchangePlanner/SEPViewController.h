@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SEPViewController : UIViewController
+@interface SEPViewController : UIViewController {
+        IBOutlet UITextField *txtfld;
+}
 
 @end
