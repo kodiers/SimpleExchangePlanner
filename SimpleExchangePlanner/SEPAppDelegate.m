@@ -7,7 +7,6 @@
 //
 
 #import "SEPAppDelegate.h"
-#import "SEPViewController.h"
 
 @implementation SEPAppDelegate
 
@@ -15,6 +14,10 @@
 {
     // Override point for customization after application launch.
     // Download help text from technet
+    NSURL *techneturl = [NSURL URLWithString:@"http://technet.microsoft.com/en-us/library/jj150540(v=exchg.150).aspx"];
+    NSURLRequest *technetrequest = [NSURLRequest requestWithURL:techneturl];
+    __unused NSURLConnection *technetconn = [[NSURLConnection alloc] initWithRequest:technetrequest delegate:NULL startImmediately:YES];
+    
     return YES;
 }
 							

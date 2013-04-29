@@ -19,26 +19,14 @@
                         <barButtonItem title="Next" id="FO2-yT-o3T"/>
                     </toolbarItems>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <outlet property="txtfld" destination="ApW-y4-kfU" id="9e9-xd-uXX"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
-                <customObject id="H1R-en-9Xy"/>
             </objects>
         </scene>
     </scenes>
     <resources>
         <image name="Default-568h@2x.png" width="640" height="1136"/>
     </resources>
-    <classes>
-        <class className="SEPViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SEPViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="txtfld" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

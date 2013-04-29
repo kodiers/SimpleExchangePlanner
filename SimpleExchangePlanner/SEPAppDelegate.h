@@ -10,6 +10,7 @@
 
 @interface SEPAppDelegate : UIResponder <UIApplicationDelegate> {
     NSMutableDictionary *answers; // answers in dialogs
+    IBOutlet UITextField *txtfld;
 }
 
 @property (strong, nonatomic) UIWindow *window;
