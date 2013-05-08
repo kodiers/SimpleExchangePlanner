@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface SEPViewController : UIViewController {
-    IBOutlet UITextField *textfiled;
+    
 }
+@property IBOutlet UITextField *textfiled;
+
+-(IBAction) pressNext:(id) sender;
 
 @end

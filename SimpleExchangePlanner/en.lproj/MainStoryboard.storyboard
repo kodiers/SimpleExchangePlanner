@@ -16,9 +16,16 @@
                         <textInputTraits key="textInputTraits"/>
                     </textField>
                     <toolbarItems>
-                        <barButtonItem title="Next" id="FO2-yT-o3T"/>
+                        <barButtonItem title="Next" id="FO2-yT-o3T">
+                            <connections>
+                                <action selector="pressNext:" destination="2" id="Voa-cc-suL"/>
+                            </connections>
+                        </barButtonItem>
                     </toolbarItems>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="textfiled" destination="ApW-y4-kfU" id="Tef-cZ-abb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>

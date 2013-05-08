@@ -21,7 +21,7 @@
     NSURL *techneturl = [NSURL URLWithString:@"http://technet.microsoft.com/en-us/library/jj150540(v=exchg.150).aspx"];
     NSURLRequest *technetrequest = [NSURLRequest requestWithURL:techneturl];
     __unused NSURLConnection *technetconn = [[NSURLConnection alloc] initWithRequest:technetrequest delegate:NULL startImmediately:YES];
-
+    [_textfiled setText:technetconn];
 }
 
 - (void)didReceiveMemoryWarning
